@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;800&family=Work+Sans:wght@700&display=swap');
+
+body {
+	width: 100%;
+	overflow-x: hidden;
+	margin: 0;
+	padding: 0;
+}
+.contenedor-principal {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	max-width: fit-content;
+	overflow-x: hidden;
+}
+
+.segunda-fila {
+	margin: 0;
+	padding: 0;
+}
+
+.segunda-fila .img-izda {
+	margin: 0;
+	padding: 0;
+	max-width: 900px;
+}
+
+.segunda-fila .texto-der {
+	padding: 5% 0 0 0;
+	margin: 0;
+	max-width: fit-content;
+}
+
+.segunda-fila .texto-der h4{
+	font-family: 'Work Sans', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 34px;
+	line-height: 40px;
+	letter-spacing: -0.02em;
+	color: #18191F;
+	overflow-x: wrap;
+	text-align: right;
+}
+
+.segunda-fila .texto-der p {
+	font-family: 'Work Sans', sans-serif;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 20px;
+	line-height: 23px;
+	letter-spacing: -0.06em;
+	color: #474A57;
+	overflow-x: wrap;
+	text-align: right;
+}
+.derecho{
+	text-align: right;
+	align-items: stretch;
+}
+/* Media Queries  */
+
+/* Vista Movil */
+@media screen and (max-width:480px){
+    .primera-fila .img-izda {
+		display: none;
+	}
+
+	.texto-izdo p {
+		overflow-x: wrap;
+	}
+
+	.texto-izdo {
+		overflow-x: wrap;
+	}
+
+	.segunda-fila .texto-der {
+		padding: 10px;
+	}
+
+	.segunda-fila .texto-der h4{
+		font-size: 25px;
+	}
+	
+	.segunda-fila .texto-der p {
+		font-size: 16px;
+	}
+}
+
+/* Vista Tablet */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .primera-fila .img-izda {
+		display: none;
+	}
+
+	.texto-izdo p {
+		overflow-x: wrap;
+	}
+
+	.texto-izdo {
+		overflow-x: wrap;
+	}
+
+	.segunda-fila .texto-der {
+		padding: 10px;
+	}
+
+	.segunda-fila .texto-der h4{
+		font-size: 25px;
+	}
+	
+	.segunda-fila .texto-der p {
+		font-size: 16px;
+	}
+}
